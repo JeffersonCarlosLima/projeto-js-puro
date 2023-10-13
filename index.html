@@ -17,17 +17,33 @@
                 <h2>produtos</h2>
             </div>
             <div class="line-imput">
-                <label for="produto"></label>
+                <label for="produto">Produto</label>
                 <input id="produto" type="text">   
             </div>            
             <div class="line-imput">
-                <label for="valor"></label>
+                <label for="valor">Valor</label>
                 <input id="valor" type="text">   
             </div>
-            <h1>Adicionar Produto</h1>
             <button onclick="produto.adicionar()" type="button">Adicionar</button>
             <button onclick="produto.excluir()" type="button">Excluir</button>
         </div>
+        <table class="content">
+
+            <th>id</th>
+            <th>Produto</th>
+            <th>Valor</th>
+            <tbody>
+            <tr>
+                    <td>1</td>
+                    <td>Faca</td>
+                    <td>R$10,00</td>
+                    <td>
+                        <button>editar</button>
+                        <button>excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 </body>
 <script src="js/script.js"></script>
